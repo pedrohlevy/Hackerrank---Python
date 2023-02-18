@@ -1,0 +1,13 @@
+countingdollars = []
+countingdollars.insert(0,5)
+countingdollars.insert(1,10)
+countingdollars.insert(0,6)
+print(countingdollars)
+countingdollars.remove(6)
+countingdollars.append(9)
+countingdollars.append(1)
+countingdollars.sort()
+print(countingdollars)
+countingdollars.pop()
+countingdollars.reverse()
+print(countingdollars)
